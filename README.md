@@ -1,5 +1,8 @@
 # HoloRingCommand
-聖剣伝説のリングコマンドっぽいものをHoloLensで実現してみた
+聖剣伝説のリングコマンドっぽいものをHoloLensで実現してみました。
+
+実際の動作はこんな感じです https://twitter.com/arcsin16/status/990151752916713473
+効果音はコミットしていないので、効果音ラボ様の https://soundeffect-lab.info/sound/anime/ から ニュッ1, 3, 伸びる、縮むを指定すると動画と同じ感じになります。
 
 SNES’s SEIKENDENSETSU Ring Command like UI sample project.
 
