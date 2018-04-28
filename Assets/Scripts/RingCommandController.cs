@@ -139,11 +139,11 @@ public class RingCommandController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.A)) // Left
         {
-            MoveHand(-0.01f);
+            MoveHand(-rotationThreshold * 1.1f);
         }
         else if (Input.GetKeyDown(KeyCode.D)) // Right
         {
-            MoveHand(0.01f);
+            MoveHand(rotationThreshold * 1.1f);
         }
 
         // アニメーション中の場合、アニメーションの経過割合を更新する
@@ -323,7 +323,7 @@ public class RingCommandController : MonoBehaviour
         // カメラに追従するのもうざいかもなので、ワールドロック的にしておく。
         this.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 1.5f;
         this.transform.LookAt(Camera.main.transform.position + Camera.main.transform.forward * 2.0f, Vector3.up);
-        if (fadeInSound = null)
+        if (fadeInSound != null)
         {
             AudioSource.PlayClipAtPoint(fadeInSound, this.transform.position);
         }

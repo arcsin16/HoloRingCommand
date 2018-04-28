@@ -292,14 +292,14 @@ MonoBehaviour:
   fadeOutAnglePerSec: 180
   fadeOutTime: 1
   rotationTime: 0.2
-  handMoveThreshold: 0.05
+  rotationThreshold: 0.05
   iconMaterial: {fileID: 2100000, guid: 3aa5f9611a569fd49a655a5b46d534f1, type: 2}
   iconMaterialSelected: {fileID: 2100000, guid: 70b5901f01afeff4087dbc4e1ce45934,
     type: 2}
-  fadeOutSound: {fileID: 8300000, guid: f2230cc637127e64a9ce08c27ed0ce5a, type: 3}
-  fadeInSound: {fileID: 8300000, guid: a02deb7333ec40a408185dbf3d83c189, type: 3}
-  rotateSound: {fileID: 8300000, guid: bda934efc7105e74694ed167429da10d, type: 3}
-  selectSound: {fileID: 8300000, guid: 0a23ec25384a0034e8d59efd984cc579, type: 3}
+  fadeOutSound: {fileID: 0}
+  fadeInSound: {fileID: 0}
+  rotateSound: {fileID: 0}
+  selectSound: {fileID: 0}
 --- !u!4 &1645585242
 Transform:
   m_ObjectHideFlags: 0
