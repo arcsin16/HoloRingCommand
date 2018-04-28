@@ -1,2 +1,0 @@
-C:\Project\RingCommand\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Project\RingCommand\App\RingCommand\RingCommand.csproj;x86
